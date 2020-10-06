@@ -21,6 +21,32 @@ En el caso del mensaje se superpone los mensajes tratandolos con arreglos y real
 ### Nivel 2
 
 En este nivel se generan servicios Rest que se publican en ContextRoot /top_secret/ al cual se enviaran collecciones JSON que definirán la distancia y el mensaje hacia los diferentes satelites para determinar la posición de la nave que envía el mesnsaje.
+Se utiliza el método POST para consultar el servicio.
+
+
+```plain
+POST → /topsecret/
+{
+"satellites": [
+{
+“name”: "kenobi",
+“distance”: 100.0,
+“message”: ["este", "", "", "mensaje", ""]
+},
+{
+“name”: "skywalker",
+“distance”: 115.5
+“message”: ["", "es", "", "", "secreto"]
+},
+{
+“name”: "sato",
+“distance”: 142.7
+“message”: ["este", "", "un", "", ""]
+}
+]
+}
+
+```
 
 ### Nivel 3
 
