@@ -7,6 +7,6 @@ permitirán triangular l a posición, ¡pero cuidado! el mensaje puede no l lega
 satélite debido al campo de asteroides frente a la nave.
 Posición de los satélites actualmente en servicio
 
-● Kenobi: [-500, -200]
-● Skywalker: [100, -100]
-● Sato: [500, 100]
+- Kenobi: [-500, -200]
+- Skywalker: [100, -100]
+- Sato: [500, 100]
